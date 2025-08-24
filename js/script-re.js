@@ -42,7 +42,7 @@ loginBtn.addEventListener('click', function(e){
         if (em.value === storedEmail && pass.value === storedPassword) {
             
             setTimeout(() => {
-                window.location = "home.html";
+                window.location = "index.html";
             }, 1000);
             localStorage.setItem('loggedIn', 'true');
         } else {
@@ -53,3 +53,4 @@ loginBtn.addEventListener('click', function(e){
 
 em.style.borderColor = "green";
 pass.style.borderColor = "green";
+
